@@ -1,0 +1,220 @@
+
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+    background-color: #0093a7;
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+html,body {
+  height: 100%;
+}
+header, main, footer {
+    width: 1040px;
+    margin: 0px auto;
+}
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+}
+header{
+    height:120px;    
+}
+main{
+    padding-bottom: 100px;
+}
+footer{   
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+    
+}
+
+.main_img-float {
+    width: 550px;
+    margin-right: 40px;
+    float: left;
+    border-radius: 15px;
+
+}
+/*Услуги*/
+#panorama {
+    width: 100%;
+    height: 150px;
+    background: url(../img/2.jpg) no-repeat center 70%;
+    background-size: cover; /*масштабирование фона*/
+}
+
+.services_img {
+    width: 240px;
+    border-radius: 15px;
+}
+
+.services_item {
+    margin: 40px 40px;
+    width: 240px;
+    float: left;
+}
+
+.services {
+    padding: 35px; 
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*О нас*/
+
+.comand {
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center; 
+}
+
+.comand_text {
+    float: left;
+    font-size: 20px;
+}
+
+.photo {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.h2 {
+    text-align: center;
+}
+/*Контакты*/
+.contact {
+    text-align: center;
+}
+
+.contact_h {
+    text-transform: uppercase;
+}
+
+.contact_color {
+    color: rgb(206, 181, 113);
+    margin: 10px;
+}
+ 
+#logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 24px;
+    float: left;
+}
+
+.pink {
+    color: rgb(235, 213, 141);
+}
+
+.footer__block, .footer__icons {
+    display: inline-block;
+    width: 335px;
+}
+
+.footer__icons {
+    text-align: right;
+    margin-left: 10px;
+}
+
+.footer__img {
+    width: 50px;
+    border-radius: 10px;
+}
+
+.footer__block {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#mainnav ul {
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+    padding-top: 40px;
+}
+
+#mainnav li {
+    display: inline;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 60px;
+}
+
+#mainnav a {
+    text-decoration: none;
+}
+
+#mainnav a:hover{
+    text-decoration: underline;
+}
+
+
+#mainnav li:active a{
+    font-weight: bold;
+}
+
+.services a {
+    text-decoration: none;
+    color: bisque;
+}
+.services a:hover{
+    text-decoration: underline;
+}
+
+.new::after{
+    content: "new";
+    font-size: 10px;
+    vertical-align: super;
+    background-color: violet;
+    border-radius: 2px;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+.services h2 {
+    color: pink;
+}
+
+.con {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cli_di {
+    border: 4px black;
+    margin-top: 40px;
+}
